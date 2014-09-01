@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C83D14319B4199000639995 /* Signika-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5C83D13F19B4199000639995 /* Signika-Bold.ttf */; };
+		5C83D14419B4199000639995 /* Signika-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5C83D14019B4199000639995 /* Signika-Light.ttf */; };
+		5C83D14519B4199000639995 /* Signika-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5C83D14119B4199000639995 /* Signika-Regular.ttf */; };
+		5C83D14619B4199000639995 /* Signika-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5C83D14219B4199000639995 /* Signika-Semibold.ttf */; };
 		5C97ACD319AB006E00CC6B7A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C97ACD219AB006E00CC6B7A /* AppDelegate.swift */; };
 		5C97ACD519AB006E00CC6B7A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C97ACD419AB006E00CC6B7A /* ViewController.swift */; };
 		5C97ACD819AB006E00CC6B7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C97ACD619AB006E00CC6B7A /* Main.storyboard */; };
@@ -25,6 +29,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5C83D13F19B4199000639995 /* Signika-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Signika-Bold.ttf"; sourceTree = "<group>"; };
+		5C83D14019B4199000639995 /* Signika-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Signika-Light.ttf"; sourceTree = "<group>"; };
+		5C83D14119B4199000639995 /* Signika-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Signika-Regular.ttf"; sourceTree = "<group>"; };
+		5C83D14219B4199000639995 /* Signika-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Signika-Semibold.ttf"; sourceTree = "<group>"; };
 		5C97ACCD19AB006E00CC6B7A /* Tip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tip.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C97ACD119AB006E00CC6B7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5C97ACD219AB006E00CC6B7A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -87,6 +95,10 @@
 		5C97ACD019AB006E00CC6B7A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5C83D13F19B4199000639995 /* Signika-Bold.ttf */,
+				5C83D14019B4199000639995 /* Signika-Light.ttf */,
+				5C83D14119B4199000639995 /* Signika-Regular.ttf */,
+				5C83D14219B4199000639995 /* Signika-Semibold.ttf */,
 				5C97ACD119AB006E00CC6B7A /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -189,7 +201,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C83D14419B4199000639995 /* Signika-Light.ttf in Resources */,
 				5C97ACD819AB006E00CC6B7A /* Main.storyboard in Resources */,
+				5C83D14619B4199000639995 /* Signika-Semibold.ttf in Resources */,
+				5C83D14319B4199000639995 /* Signika-Bold.ttf in Resources */,
+				5C83D14519B4199000639995 /* Signika-Regular.ttf in Resources */,
 				5C97ACDA19AB006E00CC6B7A /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -395,6 +411,7 @@
 				5C97ACEB19AB006E00CC6B7A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5C97ACEC19AB006E00CC6B7A /* Build configuration list for PBXNativeTarget "TipTests" */ = {
 			isa = XCConfigurationList;
@@ -403,6 +420,7 @@
 				5C97ACEE19AB006E00CC6B7A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

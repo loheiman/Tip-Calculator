@@ -28,10 +28,19 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-     //   tipLabel.text="0.00"
-       // totalLabel.text="0.00"
-        // Optionally initialize the property to a desired starting value
+       
+       
+        
+        
+        billField.font = UIFont(name:"Signika-Light", size: 50)
+        tipLabel.font = UIFont(name:"Signika-Regular", size: 38)
+        totalLabel.font = UIFont(name:"Signika-Regular", size: 38)
+        
+        billTextLabel.font = UIFont(name:"Signika-Light", size: 18)
+        tipPercentageTextLabel.font = UIFont(name:"Signika-Light", size: 18)
+        tipTextLabel.font = UIFont(name:"Signika-Light", size: 18)
+        totalTextLabel.font = UIFont(name:"Signika-Light", size: 18)
+
         
         self.billField.alpha = 0
         self.billTextLabel.alpha = 0
@@ -44,6 +53,9 @@ class ViewController: UIViewController {
         self.totalTextLabel.alpha = 0
         
         billField.becomeFirstResponder()
+        
+        
+        
         
 
 
@@ -119,7 +131,6 @@ class ViewController: UIViewController {
     @IBAction func onTap(sender: AnyObject) {
       view.endEditing(true)
     }
-    
     
     
 }
